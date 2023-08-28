@@ -177,24 +177,6 @@ h2, h3{
     /* TODO: give the grid-area a name */
 }
 
-#teamMemberCardBlurb1{
-    grid-area: tmb1;
-}
-#teamMemberCardBlurb2{
-    grid-area: tmb2;
-}
-#teamMemberCardBlurb3{
-    grid-area: tmb3;
-}
-#teamMemberCardBlurb4{
-    grid-area: tmb4;
-}
-#teamMemberCardBlurb5{
-    grid-area: tmb5;
-}
-#teamMemberCardBlurb6{
-    grid-area: tmb6;
-}
 /* Use a flexible layout grid */
 .main-container {
     display: grid;
@@ -212,7 +194,7 @@ media queries for progressively bigger screen widths
 .main-container {
     grid-template: 
    " ban ban ban ban" minmax( 6em, auto)
-   " .    .    .   ." minmax(2em, auto)
+   " .    .    .   ." minmax(4em, auto)
    " subs subs .   ." minmax(30em, auto)
    " .   .   .   .  " minmax(2em, auto)
    "tm1 tm1 tmb1 tmb1 " minmax(30em, auto)
