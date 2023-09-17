@@ -195,20 +195,16 @@ media queries for progressively bigger screen widths
     grid-template: 
    " ban ban ban ban" minmax( 6em, auto)
    " .    .    .   ." minmax(4em, auto)
-   " subs subs .   ." minmax(30em, auto)
+   ".  subs subs   ." minmax(30em, auto)
    " .   .   .   .  " minmax(2em, auto)
-   "tm1 tm1 tmb1 tmb1 " minmax(30em, auto)
+   "p1i p1i p1t p1t" minmax(30em, auto)
    " .   .   .   .  " minmax(2em, auto)
-   "tm2 tm2 tm2 tm2 " minmax(30em, auto)
+   "p2i p2i p2t p2t" minmax(30em, auto)
    " .   .   .   .  " minmax(2em, auto)
-   "tm3 tm3 tm3 tm3 " minmax(30em, auto)
+   "p3i p3i p3t p3t " minmax(30em, auto)
    " .   .   .   .  " minmax(4em, auto)
-   "oct oct oct oct " minmax(6em, auto)
+   "p4i p4i p4t p4t " minmax(6em, auto)
    ".    .   .   .  " minmax(1em, auto)
-   "ci1 ci1 ci2 ci2" minmax(8em, auto) 
-   "ci3 ci3 ci4 ci4" minmax(8em, auto) 
-   "ci5 ci5 ci6 ci6" minmax(8em, auto) 
-   "ci7 ci7 ci8 ci8" minmax(8em, auto) 
 }
    
 /* Grid-template for tablet layout */
@@ -218,16 +214,16 @@ media queries for progressively bigger screen widths
         grid-template: 
         "ban ban ban ban" minmax(8em, auto)
         ".    .   .   . " minmax(2em, auto)
-        "subs subs subs subs" minmax(30em, auto)
+        ". subs subs ." minmax(30em, auto)
         ".    .   .   . " minmax(2em, auto)
         "p1i p1i p1t p1t" minmax(30em, auto)
         ".    .    .   ." minmax(4em, auto)
-        "oct oct oct oct" minmax(6em, auto)
+        "p2i p2i p2t p2t" minmax(6em, auto)
         ".    .   .   . " minmax(1em, auto)
-        "ci1 ci1 ci2 ci2" minmax(8em, auto)
-        "ci3 ci3 ci4 ci4" minmax(8em, auto)
-        "ci5 ci5 ci6 ci6" minmax(8em, auto)
-        "ci7 ci7 ci8 ci8" minmax(8em, auto)
+        "p3i p3i p3t p3t" minmax(8em, auto)
+        ".    .    .   ." minmax(8em, auto)
+        "p4i p4i p4t p4t" minmax(8em, auto)
+        ".    .    .   ." minmax(8em, auto)
 
             
     }
@@ -239,7 +235,7 @@ media queries for progressively bigger screen widths
         grid-template: 
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
         "ban ban ban ban ban ban ban ban ban ban ban ban" minmax(8em, auto)
-        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(9em, auto)
         "subs subs subs subs subs subs subs subs subs subs . ." minmax(2em, auto)
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(6em, auto)
         "p1i p1i p1i p1i p1i p1i p1t p1t p1t p1t p1t p1t" minmax(32em, auto)
