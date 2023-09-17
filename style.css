@@ -237,7 +237,7 @@ media queries for progressively bigger screen widths
 @media (min-width: 75em) {
     .main-container {
         grid-template: 
-        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(6em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
         "ban ban ban ban ban ban ban ban ban ban ban ban" minmax(8em, auto)
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
         "subs subs subs subs subs subs subs subs subs subs . ." minmax(2em, auto)
