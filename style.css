@@ -244,6 +244,7 @@ media queries for progressively bigger screen widths
     .project-image {
    width: 100%;
    margin-left:0em;
+    }
     .main-container {
         grid-template: 
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
