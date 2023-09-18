@@ -249,7 +249,7 @@ media queries for progressively bigger screen widths
         grid-template: 
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(8em, auto)
         "ban ban ban ban ban ban ban ban ban ban ban ban" minmax(8em, auto)
-        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(9em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(9.5em, auto)
         "subs subs subs subs subs subs subs subs subs subs . ." minmax(2em, auto)
         " .   .   .   .   .   .   .   .   .   .   .   . " minmax(6em, auto)
         "p1i p1i p1i p1i p1i p1i p1t p1t p1t p1t p1t p1t" minmax(32em, auto)
